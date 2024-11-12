@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+     <div class="banner bg-homeImage h-full object-cover relative">
+      <header class="header">
+        <div class="container ">
+          <div class="header__wrapper  justify-between items-center flex gap-5 lg:flex lg:flex-row lg:justify-between lg:justify-center lg:items-center py-5 lg:py-10">
+          <div class="header__logo">
+            <a href="./home.html" target="_blank"><img class="h-[40px] lg:h-[60px]" src="../img/michiRamenLogo.png" alt=""/></a>
+          </div>
+          <ul class="header__nav font-semibold flex flex-col justify-center items-center bg-black/20 lg:bg-transparent p-0 lg:flex lg:flex-row gap-10 items-center text-[15px] lg:text-[15px] lg:flex lg:flex-row lg:gap-10  lg:items-center
+          fixed duration-700 top-0 right-[-100%]  h-full lg:static lg:w-auto w-full">
+            <li><a href="./menu.html">MENU</a></li>
+            <li><a href="">LOCATIONS</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">BLOG</a></li>
+            <a href="" class="btn bg-yelloww text-[10px] lg:text-[15px]"> ORDER ONLINE</a>
+          </ul>
+          <div class="toggle__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="transparent">
+
+          </div>
+        </div>
+      </header>
+      <div class="homeBanner__wrapper flex flex-col justify-center text-center items-center">
+          <div class="homeBanner__title font-bold">
+              <h1>MICHI RAMEN</h1>
+          </div>
+          <div class="homeBanner__time font-bold">
+              <p>TUESDAY - SUNDAY 11AM-MIDNIGHT • HAPPY HOUR 9PM-11PM</p>
+          </div>
+            <img src="../img/hero-image-2.png" alt="">
+      </div>
+      </div>
+
+        <!-- HOW TO ORDER -->
+    <section class="howTooOrder py-10 bg-light">
+      <div class="container">
+        <div class="howToOrder__wrapper  items-center flex flex-col gap-5 lg:flex lg:flex-col">
+          <div class="howToOrder__title font-semibold text-secondary">
+            <h2 class="text-[25px] lg:text-[33px]">HOW TO ORDER AT MICHI</h2>
+          </div>
+          <ul class="howToOrder__menu font-economica font-bold text-dark justify-center text-center items-center flex flex-row lg:gap-10 lg:flex lg:flex-row">
+            <li class="menus">
+              <div class="menus__image">
+                <img src="../img/ramen-step-1.png" alt="" />
+              </div>
+              <h3>PICK YOUR RAMEN</h3>
+            </li>
+            <li class="text-secondary text-[30px]">
+              <i class="fa-solid fa-chevron-right"></i>
+            </li>
+            <li class="menus">
+              <div class="menus__image">
+                <img src="../img/ramen-step-2.png" alt="" />
+              </div>
+              <h3>PICK YOUR BROTH</h3>
+            </li>
+            <li class="text-secondary text-[30px]">
+              <i class="fa-solid fa-chevron-right"></i>
+            </li>
+            <li class="menus">
+              <div class="menus__image">
+                <img src="../img/ramen-step-3.png" alt="" />
+              </div>
+              <h3>ADD TOPPINGS</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- RAMEN MENU -->
+    <section class="ramenMenu py-10 bg-ramenImage">
+      <div class="container">
+        <div class="ramenMenu__wrapper items-center flex flex-col gap-10 lg:flex lg:flex-col">
+          <div class="ramenMenu__title text-black font-bold">
+            <h2>RAMEN MENU</h2>
+          </div>
+          <div class="allMenu__list flex flex-col  w-full gap-10 lg:grid lg:grid-cols-2 lg:gap-10">
+            <div class="ramenMenu__leftlist flex flex-col gap-5 lg:flex lg:flex-col lg:gap-10">
+              <div class="cardHolder border p-2 lg:p-0 border-black lg:border-none text-center lg:text-start">
+                <div class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2">
+                  <div class="ramenMenu__details">
+                    <div class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col">
+                      <h3>MICHI</h3>
+                      <small>$8.50</small>
+                    </div>
+                    <ul>
+                      <li>chasu slices</li>
+                      <li>roasted nori</li>
+                      <li>mayu oil</li>
+                      <li>woodnear mushrooms</li>
+                      <li>green onions</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/Michi.png" alt="" />
+                  </div>
+                </div>
+                <h4>SHOYU TONKOTSU</h4>
+              </div>
+              <div class="cardHolder border p-2 lg:p-0 border-black lg:border-none text-center lg:text-start">
+                <div class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2">
+                  <div class="ramenMenu__details">
+                    <div class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col">
+                      <h3>VEGGIE</h3>
+                      <small>$7.50</small>
+                    </div>
+                    <ul>
+                      <li>chives</li>
+                      <li>sprouts and cabbage</li>
+                      <li>woodear mushrooms</li>
+                      <li>green onions</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/Vegie.png" alt="" />
+                  </div>
+                </div>
+                <h4>SHOYU SHIITAKE</h4>
+              </div>
+              <div class="cardHolder border p-2 lg:p-0 border-black lg:border-none text-center lg:text-start">
+                <div class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2">
+                  <div class="ramenMenu__details">
+                    <div class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col">
+                      <h3>DIPPING</h3>
+                      <small>$11.50</small>
+                    </div>
+                    <ul>
+                      <li>chasu slices</li>
+                      <li>shredded nori</li>
+                      <li>woodear mushrooms</li>
+                      <li>green onions</li>
+                      <li>ground chasu</li>
+                      <li>fresh garlic</li>
+                      <li>fried onions</li>
+                      <li>mayu oil</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/dipping.png" alt="" />
+                  </div>
+                </div>
+                <h4>FISH TONKOTSU</h4>
+              </div>
+              <div class="cardHolder border p-2 lg:p-0 border-black lg:border-none text-center lg:text-start">
+                <div class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2">
+                  <div class="ramenMenu__details">
+                    <div class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col">
+                      <h3>JUNGLE</h3>
+                      <small>$9.50</small>
+                    </div>
+                    <ul>
+                      <li>contains shellfish</li>
+                      <li>cahsu slices</li>
+                      <li>bean sprouts</li>
+                      <li>thai chiles</li>
+                      <li>woodear mushrooms</li>
+                      <li>green onions</li>
+                      <li>toasted lemongrass</li>
+                      <li>lime wedge</li>
+                      <li>cliatro</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/jungle.png" alt="" />
+                  </div>
+                </div>
+                <h4>LEMONGRASS TONKOTSU</h4>
+              </div>
+            </div>
+            <div class="ramenMenu__rightlist flex flex-col gap-5 lg:flex lg:flex-col lg:gap-10">
+              <div class="cardHolder border p-2 lg:p-0 border-black lg:border-none text-center lg:text-start">
+                <div class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2">
+                  <div class="ramenMenu__details">
+                    <div class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col">
+                      <h3>SAPPORO</h3>
+                      <small>$9.50</small>
+                    </div>
+                    <ul>
+                      <li>chasu slices</li>
+                      <li>bean sprouts</li>
+                      <li>corn/butter</li>
+                      <li>woodear mushrooms</li>
+                      <li>green onions</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/Saporo.png" alt="" />
+                  </div>
+                </div>
+                <h4>MISO TONKOTSU</h4>
+              </div>
+              <div class="cardHolder p-2 lg:p-0 border border-black lg:border-none text-center lg:text-start">
+                <div class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2">
+                  <div class="ramenMenu__details">
+                    <div class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col">
+                      <h3>MEAT LOVERS</h3>
+                      <small>$10.50</small>
+                    </div>
+                    <ul>
+                      <li>chasu slices</li>
+                      <li>mayu oil</li>
+                      <li>woodnear mushrooms</li>
+                      <li>green onions</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/Meat Lover.png" alt="" />
+                  </div>
+                </div>
+                <h4>SHOYU TONKOTSU</h4>
+              </div>
+              <div class="cardHolder p-2 lg:p-0 border border-black lg:border-none text-center lg:text-start">
+                <div class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2">
+                  <div class="ramenMenu__details">
+                    <div class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col">
+                      <h3>TEXAS</h3>
+                      <small>$13.50</small>
+                    </div>
+                    <ul>
+                      <li>smoked BBQ pork ribs</li>
+                      <li>vinegar siaw</li>
+                      <li>red onions</li>
+                      <li>mayu oil</li>
+                      <li>Texas toast</li>
+                      <li>jalapenos</li>
+                      <li>pickle spear</li>
+                      <li>spicy BBQ sauce</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/texas.png" alt="" />
+                  </div>
+                </div>
+                <h4>TOMATO TONKOTSU</h4>
+              </div>
+              <div class="cardHolder p-2 lg:p-0 border border-black lg:border-none text-center lg:text-start">
+                <div class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2">
+                  <div class="ramenMenu__details">
+                    <div class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col">
+                      <h3>SPECIAL</h3>
+                      <small>$8.50</small>
+                    </div>
+                    <ul>
+                      <li>smoked BBQ pork ribs</li>
+                      <li>vinegar siaw</li>
+                      <li>red onions</li>
+                      <li>mayu oil</li>
+                      <li>Texas toast</li>
+                      <li>jalapenos</li>
+                      <li>pickle spear</li>
+                      <li>spicy BBQ sauce</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/special.png" alt="" />
+                  </div>
+                </div>
+                <h4>TOMATO TONKOTSU</h4>
+              </div>
+            </div>
+          </div>
+          <a href="./menu.html" target="_blank" class="btn bg-darkk">VIEW OUR FULL MENU</a>
+        </div>
+      </div>
+    </section>
+
+      <!-- CTA -->
+       <section class="cta bg-light">
+        <div class="container">
+            <div class="cta__wrapper font-bold flex flex-col text-center py-10">
+                    <h2 class="text-secondary">JOIN US FOR HAPPY HOUR</h2>
+                    <p class="text-primary">3-6PM / 9-11PM • $1 OFF ALL BEER | WEDNESDAY 5-11PM • $2 CARAFFES</p>
+            </div>
+        </div>
+        <div class="cta__image flex flex-col lg:flex lg:flex-row">
+            <img src="../img/chili.png" alt="">
+            <img src="../img/chef.png" alt="">
+            <img src="../img/mochi.png" alt="">
+        </div>
+       </section>
+        
+
+       <!-- FOOTER -->
+       <footer class="footer py-14 bg-dark">
+        <div class="container">
+            <div class="footer__wrapper flex flex-col-reverse items-center gap-5 lg:flex lg:flex-row lg:justify-between lg:justify-center lg:text-center lg:items-center">
+                <ul class="footer__socials text-primary flex flex-row gap-5 text-[20px]">
+                    <li><a href=""><i class="fa-brands fa-yelp"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+                <div class="footer__contacts font-semibold">
+                    <p>(512) 386-19088 • 6519 N. Lamar, Austin TX 78752</p>
+                </div>
+                <div class="footer__buttons">
+                    <a href="" class="btn bg-yelloww">ORDER ONLINE</a>
+                </div>
+            </div>
+        </div>
+       </footer>
+
+       <!-- SCRIPTS -->
+        <script src="../dist/js/beerTabs.js"></script>
+        <script src="../dist/js/toggleMenu.js"></script>
+
+</body>
+</html>

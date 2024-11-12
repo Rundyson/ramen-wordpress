@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-montserrat overflow-x-hidden text-white;
+  }
+
+  h1 {
+    @apply text-[70px];
+  }
+  h2 {
+    @apply text-[33px];
+  }
+  h3 {
+    @apply text-[24px];
+  }
+  h4 {
+    @apply text-[16px];
+  }
+  h5 {
+    @apply text-[12px];
+  }
+  h6 {
+    @apply text-[10px];
+  }
+  p {
+    @apply text-[16px];
+  }
+}
+
+@layer components {
+  /* HEADER */
+  .header__nav li a {
+    @apply hover:text-primary;
+  }
+  .header__nav li a.active {
+    @apply text-primary;
+  }
+  .header__nav.open{
+        @apply right-0 z-50 overflow-y-hidden;
+    }
+    .toggle__menu{
+        @apply flex flex-col gap-1 z-50 lg:hidden;
+    }
+    .toggle__menu span {
+      @apply content-[*] bg-primary w-10 h-1 duration-700;
+    }
+    .toggle__menu span:nth-child(2) {
+      @apply content-[*] bg-light w-10 h-1 duration-700 ;
+    }
+    .toggle__menu span:last-child {
+      @apply content-[*] bg-primary w-10 h-1 duration-700 ;
+    }
+    .toggle__menu.open span:first-child{
+        @apply rotate-[310deg] bg-primary w-10 transition-all translate-x-1 translate-y-3;
+    }
+    .toggle__menu.open span:nth-child(2){
+        @apply rotate-[-310deg] w-10 bg-primary transition-all  translate-x-1 translate-y-1;
+    }
+    .toggle__menu.open span:last-child{
+        @apply rotate-[-255deg] w-10 opacity-0 bg-black transition-all;
+    }
+    .transparent{
+      @apply hidden;
+    }
+    .transparent.open{
+      @apply block fixed top-[-4.5rem] right-0 w-full backdrop-brightness-50 duration-700 overflow-y-hidden h-full;
+    }
+
+  /* BUTTONS */
+  .btn {
+    @apply py-2 px-4 bg-transparent border-transparent;
+  }
+  .btn.bg-yelloww {
+    @apply bg-primary border-transparent font-bold hover:bg-transparent hover:border hover:border-primary;
+  }
+  .btn.bg-darkk {
+    @apply bg-dark border border-dark font-bold hover:bg-transparent hover:border hover:border-dark;
+  }
+  /* HOW TO ORDER */
+  .menus img {
+    @apply h-[100px];
+  }
+
+  /* RAMEN MENU */
+  .ramenMenu__wrapper h3 {
+    @apply text-dark font-economica font-bold text-[25px] lg:text-[40px];
+  }
+  .allMenu__list h4 {
+    @apply text-dark font-comingsoon font-semibold text-[20px];
+  }
+  .allMenu__list small {
+    @apply text-secondary font-semibold text-[20px];
+  }
+  .cta__image img{
+    @apply w-full h-auto;
+  }
+
+  /* DRINKS */
+  .theDrinks__nav li{
+    @apply border-b-4 border-transparent;
+  }
+  .theDrinks__nav li{
+    @apply hover:text-primary hover:border-b-4 hover:border-primary cursor-pointer;
+  }
+  .offer__beers.active{
+    @apply border-b-4 border-primary text-primary;
+  }
+  .allBeers__details{
+    @apply hidden lg:hidden;
+  }
+  .allBeers__details.active{
+    @apply block lg:block; 
+  }
+  /* ITEMS */
+  .toppingsItem {
+    @apply hover:bg-primary cursor-pointer;
+  }
+  .sidesDessertItem{
+    @apply hover:bg-primary cursor-pointer;
+  }
+  .leftMenu__cards{
+    @apply hover:bg-primary cursor-pointer;
+  }
+  .rightMenu__cards{
+    @apply hover:bg-primary cursor-pointer;
+  }
+
+
+  /* FOOTER */
+  .footer__socials li a {
+    @apply hover:text-white;
+  }
+}
+/* * {
+    border: 1px solid red;
+} */

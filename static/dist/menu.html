@@ -1,0 +1,1837 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MENU</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header py-5 lg:py-10 bg-dark">
+      <div class="container">
+        <div
+          class="header__wrapper justify-between items-center flex gap-5 lg:flex lg:flex-row lg:justify-between lg:justify-center lg:items-center"
+        >
+          <div class="header__logo">
+            <a href="./index.html" target="_blank"
+              ><img
+                class="h-[40px] lg:h-[60px]"
+                src="../img/michiRamenLogo.png"
+                alt=""
+            /></a>
+          </div>
+          <ul
+            class="header__nav font-semibold flex flex-col justify-center items-center bg-black/20 lg:bg-transparent p-0 lg:flex lg:flex-row gap-10 items-center text-[15px] lg:text-[15px] lg:flex lg:flex-row lg:gap-10 lg:items-center fixed duration-700 top-0 right-[-100%] h-full lg:static lg:w-auto w-full"
+          >
+            <li><a href="./menu.html" class="active">MENU</a></li>
+            <li><a href="">LOCATIONS</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">BLOG</a></li>
+            <a href="" class="btn bg-yelloww text-[10px] lg:text-[15px]"
+              >ORDER ONLINE</a
+            >
+          </ul>
+          <div class="toggle__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="transparent"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ANNOUNCEMENT -->
+    <section class="announcement bg-secondary py-1">
+      <div class="container">
+        <div
+          class="announcement__wrapper font-bold text-center items-center justify-center"
+        >
+          <p class="lg:text-[16px] text-[10px]">
+            MICHI RAMEN •
+            <small class="text-[10px] lg:text-[16px] font-semibold"
+              >TUESDAY - SUNDAY 11AM-MIDNIGHT • HAPPY HOUR 9PM-11PM</small
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW TO ORDER -->
+    <section class="howTooOrder py-10 bg-light">
+      <div class="container">
+        <div
+          class="howToOrder__wrapper items-center flex flex-col gap-5 lg:flex lg:flex-col"
+        >
+          <div class="howToOrder__title font-semibold text-secondary">
+            <h2 class="text-[25px] lg:text-[33px]">HOW TO ORDER AT MICHI</h2>
+          </div>
+          <ul
+            class="howToOrder__menu font-economica font-bold text-dark justify-center text-center items-center flex flex-row lg:gap-10 lg:flex lg:flex-row"
+          >
+            <li class="menus">
+              <div class="menus__image">
+                <img src="../img/ramen-step-1.png" alt="" />
+              </div>
+              <h3>PICK YOUR RAMEN</h3>
+            </li>
+            <li class="text-secondary text-[30px]">
+              <i class="fa-solid fa-chevron-right"></i>
+            </li>
+            <li class="menus">
+              <div class="menus__image">
+                <img src="../img/ramen-step-2.png" alt="" />
+              </div>
+              <h3>PICK YOUR BROTH</h3>
+            </li>
+            <li class="text-secondary text-[30px]">
+              <i class="fa-solid fa-chevron-right"></i>
+            </li>
+            <li class="menus">
+              <div class="menus__image">
+                <img src="../img/ramen-step-3.png" alt="" />
+              </div>
+              <h3>ADD TOPPINGS</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- RAMEN MENU -->
+    <section class="ramenMenu py-10 bg-ramenImage">
+      <div class="container">
+        <div
+          class="ramenMenu__wrapper items-center flex flex-col gap-10 lg:flex lg:flex-col"
+        >
+          <div class="ramenMenu__title text-black font-bold">
+            <h2>RAMEN MENU</h2>
+          </div>
+          <div
+            class="allMenu__list flex flex-col w-full gap-10 lg:grid lg:grid-cols-2 lg:gap-10"
+          >
+            <div
+              class="ramenMenu__leftlist flex flex-col gap-5 lg:flex lg:flex-col lg:gap-10"
+            >
+              <div
+                class="cardHolder border p-2 lg:p-0 border-black lg:border-none text-center lg:text-start"
+              >
+                <div
+                  class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2"
+                >
+                  <div class="ramenMenu__details">
+                    <div
+                      class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col"
+                    >
+                      <h3>MICHI</h3>
+                      <small>$8.50</small>
+                    </div>
+                    <ul>
+                      <li>chasu slices</li>
+                      <li>roasted nori</li>
+                      <li>mayu oil</li>
+                      <li>woodnear mushrooms</li>
+                      <li>green onions</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/Michi.png" alt="" />
+                  </div>
+                </div>
+                <h4>SHOYU TONKOTSU</h4>
+              </div>
+              <div
+                class="cardHolder border p-2 lg:p-0 border-black lg:border-none text-center lg:text-start"
+              >
+                <div
+                  class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2"
+                >
+                  <div class="ramenMenu__details">
+                    <div
+                      class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col"
+                    >
+                      <h3>VEGGIE</h3>
+                      <small>$7.50</small>
+                    </div>
+                    <ul>
+                      <li>chives</li>
+                      <li>sprouts and cabbage</li>
+                      <li>woodear mushrooms</li>
+                      <li>green onions</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/Vegie.png" alt="" />
+                  </div>
+                </div>
+                <h4>SHOYU SHIITAKE</h4>
+              </div>
+              <div
+                class="cardHolder border p-2 lg:p-0 border-black lg:border-none text-center lg:text-start"
+              >
+                <div
+                  class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2"
+                >
+                  <div class="ramenMenu__details">
+                    <div
+                      class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col"
+                    >
+                      <h3>DIPPING</h3>
+                      <small>$11.50</small>
+                    </div>
+                    <ul>
+                      <li>chasu slices</li>
+                      <li>shredded nori</li>
+                      <li>woodear mushrooms</li>
+                      <li>green onions</li>
+                      <li>ground chasu</li>
+                      <li>fresh garlic</li>
+                      <li>fried onions</li>
+                      <li>mayu oil</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/dipping.png" alt="" />
+                  </div>
+                </div>
+                <h4>FISH TONKOTSU</h4>
+              </div>
+              <div
+                class="cardHolder border p-2 lg:p-0 border-black lg:border-none text-center lg:text-start"
+              >
+                <div
+                  class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2"
+                >
+                  <div class="ramenMenu__details">
+                    <div
+                      class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col"
+                    >
+                      <h3>JUNGLE</h3>
+                      <small>$9.50</small>
+                    </div>
+                    <ul>
+                      <li>contains shellfish</li>
+                      <li>cahsu slices</li>
+                      <li>bean sprouts</li>
+                      <li>thai chiles</li>
+                      <li>woodear mushrooms</li>
+                      <li>green onions</li>
+                      <li>toasted lemongrass</li>
+                      <li>lime wedge</li>
+                      <li>cliatro</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/jungle.png" alt="" />
+                  </div>
+                </div>
+                <h4>LEMONGRASS TONKOTSU</h4>
+              </div>
+            </div>
+            <div
+              class="ramenMenu__rightlist flex flex-col gap-5 lg:flex lg:flex-col lg:gap-10"
+            >
+              <div
+                class="cardHolder border p-2 lg:p-0 border-black lg:border-none text-center lg:text-start"
+              >
+                <div
+                  class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2"
+                >
+                  <div class="ramenMenu__details">
+                    <div
+                      class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col"
+                    >
+                      <h3>SAPPORO</h3>
+                      <small>$9.50</small>
+                    </div>
+                    <ul>
+                      <li>chasu slices</li>
+                      <li>bean sprouts</li>
+                      <li>corn/butter</li>
+                      <li>woodear mushrooms</li>
+                      <li>green onions</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/Saporo.png" alt="" />
+                  </div>
+                </div>
+                <h4>MISO TONKOTSU</h4>
+              </div>
+              <div
+                class="cardHolder p-2 lg:p-0 border border-black lg:border-none text-center lg:text-start"
+              >
+                <div
+                  class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2"
+                >
+                  <div class="ramenMenu__details">
+                    <div
+                      class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col"
+                    >
+                      <h3>MEAT LOVERS</h3>
+                      <small>$10.50</small>
+                    </div>
+                    <ul>
+                      <li>chasu slices</li>
+                      <li>mayu oil</li>
+                      <li>woodnear mushrooms</li>
+                      <li>green onions</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/Meat Lover.png" alt="" />
+                  </div>
+                </div>
+                <h4>SHOYU TONKOTSU</h4>
+              </div>
+              <div
+                class="cardHolder p-2 lg:p-0 border border-black lg:border-none text-center lg:text-start"
+              >
+                <div
+                  class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2"
+                >
+                  <div class="ramenMenu__details">
+                    <div
+                      class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col"
+                    >
+                      <h3>TEXAS</h3>
+                      <small>$13.50</small>
+                    </div>
+                    <ul>
+                      <li>smoked BBQ pork ribs</li>
+                      <li>vinegar siaw</li>
+                      <li>red onions</li>
+                      <li>mayu oil</li>
+                      <li>Texas toast</li>
+                      <li>jalapenos</li>
+                      <li>pickle spear</li>
+                      <li>spicy BBQ sauce</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/texas.png" alt="" />
+                  </div>
+                </div>
+                <h4>TOMATO TONKOTSU</h4>
+              </div>
+              <div
+                class="cardHolder p-2 lg:p-0 border border-black lg:border-none text-center lg:text-start"
+              >
+                <div
+                  class="ramenMenu__list--cards items-center flex flex-col-reverse lg:grid lg:grid-cols-2"
+                >
+                  <div class="ramenMenu__details">
+                    <div
+                      class="ramenPrices flex justify-between items-center lg:items-start lg:flex lg:flex-col"
+                    >
+                      <h3>SPECIAL</h3>
+                      <small>$8.50</small>
+                    </div>
+                    <ul>
+                      <li>smoked BBQ pork ribs</li>
+                      <li>vinegar siaw</li>
+                      <li>red onions</li>
+                      <li>mayu oil</li>
+                      <li>Texas toast</li>
+                      <li>jalapenos</li>
+                      <li>pickle spear</li>
+                      <li>spicy BBQ sauce</li>
+                    </ul>
+                  </div>
+                  <div class="ramenMenu__image">
+                    <img src="../img/special.png" alt="" />
+                  </div>
+                </div>
+                <h4>TOMATO TONKOTSU</h4>
+              </div>
+            </div>
+          </div>
+          <a href="./menu.html" target="_blank" class="btn bg-darkk"
+            >VIEW OUR FULL MENU</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- INGREDIENT -->
+    <section class="ingredient__bg">
+      <img class="w-full" src="../img/bg-ing.png" alt="" />
+    </section>
+
+    <!-- RAMEN TOPPINGS -->
+    <section class="ramenToppings py-10 bg-light text-black">
+      <div class="container">
+        <div class="ramenToppings__wrapper flex flex-col gap-5 items-center">
+          <div class="ramenToppings__details grid place-items-center">
+            <h2 class="font-bold text-secondary text-[40px]">RAMEN TOPPINGS</h2>
+            <div class="broth__price flex flex-row gap-4">
+              <h4 class="font-semibold text-primary">BROTH & NOODLES</h4>
+              <h4 class="font-semibold text-dark">$6.50</h4>
+            </div>
+            <small class="text-dark font-semibold"
+              >Great for kids or to build your own</small
+            >
+          </div>
+          <div
+            class="wrapper flex flex-col gap-5 border border-black p-2 w-full lg:border-none lg:p-0 lg:grid lg:grid-cols-2 lg:gap-10 lg:w-[800px] lg:mx-auto font-montserrat"
+          >
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">AJITAME</h4>
+                  <p class="font-semibold text-[12px]">
+                    Marinated soft-boiled egg
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$1.00</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">MAYU</h4>
+                  <p class="font-semibold text-[12px]">Blackened garlic oil</p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">ONSEN</h4>
+                  <p class="font-semibold text-[12px]">Hot spring egg</p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">KAMABOKO</h4>
+                  <p class="font-semibold text-[12px]">Steamed fishcakes</p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$1.00</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">CHASU PORK</h4>
+                  <p class="font-semibold text-[12px]">Slices/Ground</p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$1.50/$2.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">NORI</h4>
+                  <p class="font-semibold text-[12px]">Roasted Seaweed</p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">SHITAKE</h4>
+                  <p class="font-semibold text-[12px]">Braised Mushroom Caps</p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$2.00</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">KIKURAGE</h4>
+                  <p class="font-semibold text-[12px]">Woodear Mushrooms</p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">VEGGIES</h4>
+                  <p class="font-semibold text-[12px]">
+                    Chives, Sprouts and Cabbage
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$1.00</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">BEAN SPROUTS</h4>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">BENISHOGA</h4>
+                  <p class="font-semibold text-[12px]">Pickled Ginger</p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">CORN</h4>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">TAKANA</h4>
+                  <p class="font-semibold text-[12px]">
+                    Pickled mustard greens
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$1.00</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">FRESH GARLIC</h4>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">MENMA</h4>
+                  <p class="font-semibold text-[12px]">Marinated Bamboo</p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">BROCCOLI</h4>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">SPICY</h4>
+                  <p class="font-semibold text-[12px]">Homemade chili oil</p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">THAI CHILES</h4>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toppingsItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="toppingsName">
+                  <h4 class="font-bold">CARROTS</h4>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MOCHIS -->
+    <section class="mochiBg">
+      <img class="w-full" src="../img/bg-mochi.png" alt="" />
+    </section>
+
+    <!-- SIDES & DESSERT -->
+    <section class="sidesDessert py-10 bg-light text-black">
+      <div class="container">
+        <div class="sidesDessert__wrapper flex flex-col gap-5 items-center">
+          <div class="sidesDessert__details grid place-items-center">
+            <h2 class="font-bold text-secondary text-[40px]">
+              SIDES & DESSERTS
+            </h2>
+          </div>
+          <div
+            class="wrapper flex flex-col lg:grid lg:grid-cols-2 gap-10 border border-black p-2 lg:p-0 lg:border-none lg:w-[800px] lg:mx-auto font-montserrat"
+          >
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">EDAMAME</h4>
+                  <p class="font-semibold text-[12px]">
+                    Boiled and salted pods
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$3.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">TORITEN</h4>
+                  <p class="font-semibold text-[12px]">
+                    chicken tempura with dipping sauce
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$4.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">SEAWOOD SALAD</h4>
+                  <p class="font-semibold text-[12px]">
+                    mix of seaweed, woodear mushrooms, sesame oil and
+                    chiliflakes
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$3.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">MENTAIKO</h4>
+                  <p class="font-semibold text-[12px]">
+                    Spicy pollock roe with side of takana and steamed rice
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$5.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">CALAMARI SALAD</h4>
+                  <p class="font-semibold text-[12px]">
+                    Mix of squid, bamboo shoots, woodear mushrooms and ginger
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$3.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">CHASU DON</h4>
+                  <p class="font-semibold text-[12px]">
+                    Burnt ends over steamed rice topped with green onions and
+                    bonito flakes
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$6.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">GYOZA</h4>
+                  <p class="font-semibold text-[12px]">
+                    Five homemade pan-fried pork, chives and cabbage dumplings
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$4.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">CURRY RICE</h4>
+                  <p class="font-semibold text-[12px]">
+                    Tonkotsu curry with broccoli peas, carrots and bed of rice
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$7.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">BURNT ENDS</h4>
+                  <p class="font-semibold text-[12px]">
+                    Our take on the BBQ delicacy bite-size pieces of chasu
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$4.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">VEGGIE CURRY RICE</h4>
+                  <p class="font-semibold text-[12px]">
+                    Veggie curry with broccoli, peas, carrots and bed of rice
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$0.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">TATSUTA AGE</h4>
+                  <p class="font-semibold text-[12px]">
+                    marinated boneless fried chicken
+                  </p>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>$4.50</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sidesDessertItem text-dark border border-black p-2 lg:p-0 lg:border-none"
+            >
+              <div class="flex justify-between">
+                <div class="sidesDessertName">
+                  <h4 class="font-bold">MOCHI ICE CREAM</h4>
+                </div>
+                <div class="thePrice font-bold">
+                  <h4>2 for $3</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEER -->
+    <section class="beerBg">
+      <img class="w-full" src="../img/bg-beer.png" alt="" />
+    </section>
+
+    <!-- DRINKS -->
+    <section class="theDrinks bg-light text-dark py-10">
+      <div class="container">
+        <div class="theDrinks__wrapper flex flex-col gap-10">
+          <div class="theDrinks__details grid place-items-center">
+            <h2 class="font-bold text-secondary text-[40px]">DRINKS</h2>
+            <h2 class="font-bold text-[20px] lg:text-[33px]">
+              JOIN US FOR HAPPY HOUR
+            </h2>
+            <small class="text-dark font-semibold"
+              >3-6PM / 9-11PM • $1 OFF ALL BEER | WEDNESDAYS 5-11PM • $2 SAKE
+              CARAFFES</small
+            >
+          </div>
+          <ul
+            class="theDrinks__nav lg:w-[800px] lg:mx-auto text-[40px] font-economica font-semibold flex justify-between"
+          >
+            <li class="offer__beers active" id="tabs-1">BEER</li>
+            <li class="offer__beers" id="tabs-2">SAKE</li>
+            <li class="offer__beers" id="tabs-3">WINE</li>
+            <li class="offer__beers" id="tabs-4">TEA</li>
+          </ul>
+          <div class="allBeers--content">
+            <div class="allBeers__details active" id="tabs-1-content">
+              <div
+                class="theDrinks__menu flex flex-col gap-5 border border-black p-2 lg:p-0 lg:border-none lg:grid lg:grid-cols-2 lg:gap-10"
+              >
+                <div
+                  class="leftMenu flex flex-col lg:flex lg:flex-col gap-10 border border-black p-2 lg:p-0 lg:border-none"
+                >
+                  <h3 class="font-bold text-center text-[15px] lg:text-[24px]">
+                    DRAFT
+                  </h3>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">PEARL-SNAP</h4>
+                      <p class="font-semibold text-[12px]">
+                        Pilsner - Austin Beerworks
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.50</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">SPUTNIK</h4>
+                      <p class="font-semibold text-[12px]">
+                        Russian Imperial Stout - Austin Beerworks
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$6.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">512 IPA</h4>
+                      <p class="font-semibold text-[12px]">
+                        Inda Pale Ale - 512 Brewery
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">LIVE OAK HEFEWEIZEN</h4>
+                      <p class="font-semibold text-[12px]">
+                        Hefeweizen - Live oak
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">GOLDTOP</h4>
+                      <p class="font-semibold text-[12px]">
+                        Cider - Austin Eastciders
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.50</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">ROATATING BEER NERD TAP</h4>
+                      <p class="font-semibold text-[12px]">
+                        Ask server for beer selection
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="rightMenu flex flex-col lg:flex lg:flex-col gap-10 border border-black p-2 lg:p-0 lg:border-none"
+                >
+                  <h3 class="font-bold text-center text-[15px] lg:text-[24px]">
+                    JAPANESE BOTTLES
+                  </h3>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">SUPER DRY</h4>
+                      <p class="font-semibold text-[12px]">BEER - Asahi</p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">BLACK KURONAMA</h4>
+                      <p class="font-semibold text-[12px]">BEER - Asahi</p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$6.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WHITE ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">RED RICE ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WINTER ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">JAPANAESE CLASSIC</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">GINGER BREW</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WEIZEN</h4>
+                      <p class="font-semibold text-[12px]">
+                        Hef - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">NIPPONIA PILSNER</h4>
+                      <p class="font-semibold text-[12px]">
+                        Pilsner - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">XH</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">ESPRESSO STOUT</h4>
+                      <p class="font-semibold text-[12px]">
+                        Stout - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="allBeers__details" id="tabs-2-content">
+              <div
+                class="theDrinks__menu flex flex-col gap-5 border border-black p-2 lg:p-0 lg:border-none lg:grid lg:grid-cols-2 lg:gap-10"
+              >
+                <div
+                  class="leftMenu flex flex-col lg:flex lg:flex-col gap-10 border border-black p-2 lg:p-0 lg:border-none"
+                >
+                  <h3 class="font-bold text-center text-[15px] lg:text-[24px]">
+                    DRAFT
+                  </h3>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Junmai Daiginjo</h4>
+                      <p class="font-semibold text-[12px]">honjozo</p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.50</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Honjozo</h4>
+                      <p class="font-semibold text-[12px]">
+                        Ginjo-shu and Daiginjo-shu
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$6.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Ginjo-shu</h4>
+                      <p class="font-semibold text-[12px]">
+                        Inda Pale Ale - 512 Brewery
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Daiginjo-shu</h4>
+                      <p class="font-semibold text-[12px]">
+                        Hefeweizen - Live oak
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Namazake</h4>
+                      <p class="font-semibold text-[12px]">
+                        Cider - Austin Eastciders
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.50</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Taru sake</h4>
+                      <p class="font-semibold text-[12px]">
+                        Ask server for beer selection
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="rightMenu flex flex-col lg:flex lg:flex-col gap-10 border border-black p-2 lg:p-0 lg:border-none"
+                >
+                  <h3 class="font-bold text-center text-[15px] lg:text-[24px]">
+                    JAPANESE BOTTLES
+                  </h3>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">SUPER DRY</h4>
+                      <p class="font-semibold text-[12px]">BEER - Asahi</p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">BLACK KURONAMA</h4>
+                      <p class="font-semibold text-[12px]">BEER - Asahi</p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$6.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WHITE ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">RED RICE ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WINTER ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">JAPANAESE CLASSIC</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">GINGER BREW</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WEIZEN</h4>
+                      <p class="font-semibold text-[12px]">
+                        Hef - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">NIPPONIA PILSNER</h4>
+                      <p class="font-semibold text-[12px]">
+                        Pilsner - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">XH</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Sparkling sake</h4>
+                      <p class="font-semibold text-[12px]">
+                        Stout - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="allBeers__details" id="tabs-3-content">
+              <div
+                class="theDrinks__menu flex flex-col gap-5 border border-black p-2 lg:p-0 lg:border-none lg:grid lg:grid-cols-2 lg:gap-10"
+              >
+                <div
+                  class="leftMenu flex flex-col lg:flex lg:flex-col gap-10 border border-black p-2 lg:p-0 lg:border-none"
+                >
+                  <h3 class="font-bold text-center text-[15px] lg:text-[24px]">
+                    DRAFT
+                  </h3>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">PEARL-SNAP</h4>
+                      <p class="font-semibold text-[12px]">
+                        Pilsner - Austin Beerworks
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.50</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">SPUTNIK</h4>
+                      <p class="font-semibold text-[12px]">
+                        Russian Imperial Stout - Austin Beerworks
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$6.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">512 IPA</h4>
+                      <p class="font-semibold text-[12px]">
+                        Inda Pale Ale - 512 Brewery
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">LIVE OAK HEFEWEIZEN</h4>
+                      <p class="font-semibold text-[12px]">
+                        Hefeweizen - Live oak
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">GOLDTOP</h4>
+                      <p class="font-semibold text-[12px]">
+                        Cider - Austin Eastciders
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.50</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">ROATATING BEER NERD TAP</h4>
+                      <p class="font-semibold text-[12px]">
+                        Ask server for beer selection
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="rightMenu flex flex-col lg:flex lg:flex-col gap-10 border border-black p-2 lg:p-0 lg:border-none"
+                >
+                  <h3 class="font-bold text-center text-[15px] lg:text-[24px]">
+                    JAPANESE BOTTLES
+                  </h3>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">SUPER DRY</h4>
+                      <p class="font-semibold text-[12px]">BEER - Asahi</p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">BLACK KURONAMA</h4>
+                      <p class="font-semibold text-[12px]">BEER - Asahi</p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$6.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WHITE ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">RED RICE ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WINTER ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">JAPANAESE CLASSIC</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">GINGER BREW</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WEIZEN</h4>
+                      <p class="font-semibold text-[12px]">
+                        Hef - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">NIPPONIA PILSNER</h4>
+                      <p class="font-semibold text-[12px]">
+                        Pilsner - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">XH</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">ESPRESSO STOUT</h4>
+                      <p class="font-semibold text-[12px]">
+                        Stout - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="allBeers__details" id="tabs-4-content">
+              <div
+                class="theDrinks__menu flex flex-col gap-5 border border-black p-2 lg:p-0 lg:border-none lg:grid lg:grid-cols-2 lg:gap-10"
+              >
+                <div
+                  class="leftMenu flex flex-col lg:flex lg:flex-col gap-10 border border-black p-2 lg:p-0 lg:border-none"
+                >
+                  <h3 class="font-bold text-center text-[15px] lg:text-[24px]">
+                    DRAFT
+                  </h3>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Junmai Daiginjo</h4>
+                      <p class="font-semibold text-[12px]">honjozo</p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.50</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Honjozo</h4>
+                      <p class="font-semibold text-[12px]">
+                        Ginjo-shu and Daiginjo-shu
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$6.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Ginjo-shu</h4>
+                      <p class="font-semibold text-[12px]">
+                        Inda Pale Ale - 512 Brewery
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Daiginjo-shu</h4>
+                      <p class="font-semibold text-[12px]">
+                        Hefeweizen - Live oak
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Namazake</h4>
+                      <p class="font-semibold text-[12px]">
+                        Cider - Austin Eastciders
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.50</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="leftMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Taru sake</h4>
+                      <p class="font-semibold text-[12px]">
+                        Ask server for beer selection
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="rightMenu flex flex-col lg:flex lg:flex-col gap-10 border border-black p-2 lg:p-0 lg:border-none"
+                >
+                  <h3 class="font-bold text-center text-[15px] lg:text-[24px]">
+                    JAPANESE BOTTLES
+                  </h3>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">SUPER DRY</h4>
+                      <p class="font-semibold text-[12px]">BEER - Asahi</p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$5.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">BLACK KURONAMA</h4>
+                      <p class="font-semibold text-[12px]">BEER - Asahi</p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$6.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WHITE ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">RED RICE ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WINTER ALE</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">JAPANAESE CLASSIC</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">GINGER BREW</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">WEIZEN</h4>
+                      <p class="font-semibold text-[12px]">
+                        Hef - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">NIPPONIA PILSNER</h4>
+                      <p class="font-semibold text-[12px]">
+                        Pilsner - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">XH</h4>
+                      <p class="font-semibold text-[12px]">
+                        BEER - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="rightMenu__cards flex justify-between border border-black p-2 lg:p-0 lg:border-none"
+                  >
+                    <div class="Beers">
+                      <h4 class="font-bold">Sparkling sake</h4>
+                      <p class="font-semibold text-[12px]">
+                        Stout - Hitachino Nest
+                      </p>
+                    </div>
+                    <div class="beerPrice font-bold">
+                      <h4>$8.00</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-14 bg-dark">
+      <div class="container">
+        <div
+          class="footer__wrapper flex flex-col-reverse items-center gap-5 lg:flex lg:flex-row lg:justify-between lg:justify-center lg:text-center lg:items-center"
+        >
+          <ul
+            class="footer__socials text-primary flex flex-row gap-5 text-[20px]"
+          >
+            <li>
+              <a href=""><i class="fa-brands fa-yelp"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+          <div class="footer__contacts font-semibold">
+            <p>(512) 386-19088 • 6519 N. Lamar, Austin TX 78752</p>
+          </div>
+          <div class="footer__buttons">
+            <a href="" class="btn bg-yelloww">ORDER ONLINE</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="../dist/js/beerTabs.js"></script>
+    <script src="../dist/js/toggleMenu.js"></script>
+  </body>
+</html>
